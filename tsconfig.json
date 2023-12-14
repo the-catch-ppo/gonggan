@@ -7,7 +7,7 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+  "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/kakao/page.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/kakao/page.js", "src/app/mypage/page.tsx", "src/app/features/saga.js", "src/pages/api/post/oauth.ts", "src/util/database.ts", "src/pages/api/auth/[...nextauth].ts"],
   "exclude": ["node_modules"]
 }

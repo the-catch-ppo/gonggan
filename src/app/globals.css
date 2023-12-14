@@ -6,8 +6,8 @@ button {
   background-color: #998373;
   color: #fff;
   font-size: 25px;
-  width: 540px;
-  height: 48px;
+  width: 100px;
+  height: 50px;
   border-radius: 5px;
 }
 
@@ -17,4 +17,25 @@ input {
   height: 48px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.in {
+  @apply h-[48px] text-sm p-4 rounded-md border-solid border-gray-300 w-full max-w-[680px]
+}
+
+form .form__block {
+  @apply mt-5 w-full m-auto;
+}
+
+.lab {
+  @apply block font-normal text-sm mt-5 mb-[5px];
+}
+
+form .form__btn--submit {
+  @apply w-full h-[48px] font-bold p-[10px] float-right cursor-pointer my-[30px] mx-auto text-base bg-[#998373] text-white border-inherit;
+}
+
+form .form__btn--submit:hover,
+form .form__btn--submit:focus {
+  @apply bg-[#5f544d]
 }
